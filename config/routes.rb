@@ -10,6 +10,18 @@ Bootstrap::Application.routes.draw do
 
   get "home/index"
 
+  get "sign_in/index"
+
+  get "sign_in/changepassword"
+
+  get "home/whatislinkedin"
+
+  get"home/agreement"
+
+  get"home/countrylist"
+
+  get "signup/index"
+
   devise_for :users
 
   #resources :users, :only => [:show]

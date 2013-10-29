@@ -10,6 +10,7 @@ class FeedbacksController < ApplicationController
       format.html # index.html.erb
       format.json { render json: @feedbacks }
     end
+    layout:single_footer
   end
 
   # GET /feedbacks/1

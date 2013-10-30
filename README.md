@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Rails Bootstrap Base Application
  
 ## Overview
@@ -42,3 +43,7 @@ curl -X GET "http://localhost:3000/feedbacks/1.json?auth_token=<authentication_t
 ## Todo
 
 See issues - [rails-bootstrap-base-app/issues](https://github.com/kevbaker/rails-bootstrap-base-app/issues)
+=======
+trial
+=====
+>>>>>>> 7d198ad00f0fb294500049f83cd849c833eed813

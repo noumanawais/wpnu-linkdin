@@ -24,6 +24,7 @@ Bootstrap::Application.routes.draw do
 
   devise_for :users
 
+
   #resources :users, :only => [:show]
   resources :users
 
@@ -90,5 +91,6 @@ Bootstrap::Application.routes.draw do
   root :to => "home#index"
 #  match ':controller(/:action(/:id(.:format)))'
   match 'home/index' => 'home#index'
+  
 
 end

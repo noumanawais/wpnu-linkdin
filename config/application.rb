@@ -42,3 +42,5 @@ module Bootstrap
     config.assets.enabled = true
   end
 end
+
+

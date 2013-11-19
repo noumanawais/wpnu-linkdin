@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   has_many :authorizations
+  has_one :expereince
   has_many :user_roles, :through => :authorizations
 
   # Include default devise modules. Others available are:

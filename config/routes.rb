@@ -26,7 +26,7 @@ Bootstrap::Application.routes.draw do
 get "experience/new"
 get "experience/imageloader"
 post "experience/imageloader2"
-
+get "experience/step2"
 post "experience/create"
 post "experience/step2"
   # devise_for :users

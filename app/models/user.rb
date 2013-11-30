@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me, :authentication_token ,:first_name,:last_name,:image
-  mount_uploader :image , ImageUploader
+ # mount_uploader :image , ImageUploader
   alias_attribute :roles, :user_roles
 
   # Ensure the there is a auth token for all users, authorization will still be enforced

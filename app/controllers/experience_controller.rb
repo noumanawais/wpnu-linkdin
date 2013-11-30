@@ -16,7 +16,7 @@ end
 
 def imageloader
 	 
-# render "../experience/picture_upload.html", :layout => 'application'
+render "../experience/picture_upload.html", :layout => 'application'
 
 
 

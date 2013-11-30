@@ -1,0 +1,36 @@
+  <div id="indexSearch">
+
+  <div id="postField">
+
+
+  <div style="clear:both">
+
+
+  <table>
+
+
+    <% @user.each do |user| %>
+
+    <div  class="addition" >  
+
+      <div class="floatL userPicture"></div>    
+
+      <div class=" userName"><%= user.profile.firstName %> <%= user.profile.lastName %></div> 
+
+      <div class="floatL userName"><%= user.experience.company_name %>&nbsp;&nbsp;&nbsp; </div>
+      <div class=" userName"><%= user.experience.status %> </div>
+
+    </div>
+
+   </tr>
+      <% end %>
+
+
+
+
+
+  </table>
+
+    
+  </div>
+
